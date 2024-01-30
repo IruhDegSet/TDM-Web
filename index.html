@@ -1,0 +1,29 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algerian Supreme Court Decisions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algerian Supreme Court Decisions</h1>
+        <div class="filter-section">
+            <input type="text" id="chamberInput" placeholder="Judicial Chamber">
+            <input type="text" id="yearInput" placeholder="Year">
+            <input type="text" id="referenceInput" placeholder="Decision Reference">
+            <button id="applyFilterButton">Apply Filter</button>
+            <button id="clearFilterButton">Clear Filter</button>
+        </div>
+        <button id="loadDataButton">Load Data</button>
+        <button id="clearDataButton">Clear Data</button>
+        <div id="decisionsList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
